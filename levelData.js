@@ -6,7 +6,11 @@ export const levels = [
     name: "LEVEL 1",
     par: 1,
     gravity: 0.05,
-    balls: [[0, 0, { v: { x: 2, y: 1 }, c: "#FCF6E8" }, 0, 0, 0]],
+    balls: [
+      [0, 0, 0, 0, { v: { x: -2, y: 2 }, c: "#DF432A" }, 0],
+      [0, 0, 0, 0, 0, 0],
+      [0, 0, { v: { x: 2, y: 1 }, c: "#FCF6E8" }, 0, 0, 0],
+    ],
   },
   {
     name: "LEVEL 2",
